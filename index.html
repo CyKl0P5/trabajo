@@ -15,7 +15,6 @@
     		document.getElementById("character").style.left = leftValue+"px";
     		document.getElementById("character").style.top = topValue+"px";
 			document.getElementById("character").style.backgroundImage = "url('img/"+direction+step+".png')";
-			
     	}
 
     	document.onkeydown = function(e){
@@ -36,6 +35,7 @@
 				topValue = topValue - 10;
 				direction = 'top';
 			}
+			
     		update();
     	}
     </script>
